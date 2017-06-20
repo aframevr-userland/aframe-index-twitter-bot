@@ -1,0 +1,30 @@
+{
+  "name": "aframe-twitter-bot",
+  "description": "A Twitter bot that aggregates tweets for A-Frame scenes and components designed for WebVR.",
+  "author": "A-Frame authors",
+  "version": "0.5.16",
+  "main": "index.js",
+  "license": "CC0-1.0",
+  "homepage": "https://github.com/aframevr-userland/aframe-twitter-bot",
+  "repository": "aframevr-userland/aframe-twitter-bot",
+  "scripts": {
+    "start": "npm run dev",
+    "dev": "nodemon index.js",
+    "prod": "node index.js"
+  },
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "dotenv": "^4.0.0",
+    "express": "^4.15.3",
+    "ghauth": "^3.2.1",
+    "github": "^9.2.0",
+    "index-feed": "^1.0.0",
+    "lerna": "^2.0.0-rc.5",
+    "level": "^1.7.0",
+    "loggy": "^1.0.2",
+    "node-fetch": "^1.7.1",
+    "nodemon": "^1.11.0",
+    "through2": "^2.0.3",
+    "twit": "^2.2.9"
+  }
+}
